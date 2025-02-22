@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+.clear-div{
+    clear: both;
+}
+
+/* buy now */
+.logo-img1 img{
+    width: 150px;
+    height: auto;
+}
+
+.btn1 {
+    background-color: #82b53f;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    background-color: #6a9932;
+}
+.bg-color1{
+    background-color: black;
+}
+/* buy now */
+
+
+/* header */
+.header-content{
+    margin-top: 80px;
+}
+.parlour-img img{
+    width: 650px;
+    height: auto;
+    margin-top: -180px;
+    
+}
+@media (max-width: 1300px) { /* Mobile & Tablet */
+    .parlour-img img {
+        display: none; /* Hide image on smaller screens */
+    }
+}
+
+.parlour-link a{
+    font-size: 20px;
+    margin-top: -14px;
+    transition: 1s;
+}
+.parlour-link li{
+    margin: 20px;
+}
+.parlour-link a:hover{
+    color: #fe817d;
+}
+.navbar button{
+    color: #fe817d;
+}
+.navbar-nav{
+    margin-left: -670px;
+    margin-top: -13px;
+}
+.navbar-nav a{
+    margin: 20px;
+    font-size: 20px;
+    transition: 1s;
+}
+.navbar-nav a:hover{
+    color: #fe817d;
+}
+@media screen and (max-width: 1300px) {
+    .navbar-nav{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .navbar-nav{
+        margin-left: -350px;
+    }
+}
+.parlour-svg1 img{
+    width: 170px;
+    height: auto;
+    margin-top: -550px;
+}
+.parlour-banar1{
+    margin-left: 230px;
+    margin-top: -450px;
+}
+.parlour-banar1 .s{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fe817d;
+}
+.parlour-banar1 h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media screen and (max-width: 1300px) {
+    .parlour-header{
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    .parlour-banar1{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .img-svg{
+        display: none;
+    }
+    
+}
+.parlour-banar1 button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color: #fe817d;
+}
+
+.parlour-banar1 i{
+    background-color: white;
+    color: #fe817d;
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+
+.parlour-play {
+    display: flex;
+    align-items: center; /* Button & link ek line-e thakbe */
+    gap: 15px; /* Button & link er majhe gap */
+}
+
+.parlour-play a {
+    display: inline-flex; /* Inline-flex use korle icon & text ek sathe thakbe */
+    align-items: center; /* X-axis align thik rakhbe */
+    text-decoration: none; /* Underline remove */
+    color: inherit;
+    gap: 5px; /* Icon & text er modhye gap */
+    font-size: 16px; /* Ensure consistent text size */
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .parlour-play {
+        flex-direction: column; /* Medium screen e button & link column e thakbe */
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .parlour-play {
+        display: flex;
+        flex-direction: column; /* Column-wise layout */
+        align-items: center; /* Center alignment */
+        justify-content: center; /* Center vertically */
+        text-align: center;
+        gap: 10px; /* Space between items */
+    }
+    
+}
+
+/* header */
+
+
+
+/* main */
+main{
+    margin-top: 170px;
+}
+
+/* section 1 */
+.comment-head{
+    color: grey;
+    font-size: 2rem;
+}
+.parlour-comment button{
+    background-color: #fe817d;
+    color: white;
+    height: 60px;
+    width: 140px;
+    border: none;
+    border-radius: 50px;
+}
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 129, 125, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .overlay {
+    opacity: 3.5; 
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+/* section 1 */
+
+/* main */
+
+
+
