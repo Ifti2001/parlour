@@ -1,0 +1,499 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+.clear-div{
+    clear: both;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Rufina", serif;
+}
+/* buy now */
+.logo-img1 img{
+    width: 150px;
+    height: auto;
+}
+
+.btn1 {
+    background-color: #82b53f;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    background-color: #6a9932;
+}
+.bg-color1{
+    background-color: black;
+}
+/* buy now */
+
+
+/* header */
+.header-content{
+    margin-top: 80px;
+}
+.parlour-img img{
+    width: 650px;
+    height: auto;
+    margin-top: -180px;
+    
+}
+@media (max-width: 1300px) { /* Mobile & Tablet */
+    .parlour-img img {
+        display: none; /* Hide image on smaller screens */
+    }
+}
+
+.parlour-link a{
+    font-size: 20px;
+    margin-top: -14px;
+    transition: 1s;
+}
+.parlour-link li{
+    margin: 20px;
+}
+.parlour-link a:hover{
+    color: #fe817d;
+}
+.navbar button{
+    color: #fe817d;
+}
+.navbar-nav{
+    margin-left: -670px;
+    margin-top: -13px;
+}
+.navbar-nav a{
+    margin: 20px;
+    font-size: 20px;
+    transition: 1s;
+}
+.navbar-nav a:hover{
+    color: #fe817d;
+}
+@media screen and (max-width: 1300px) {
+    .navbar-nav{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .navbar-nav{
+        margin-left: -350px;
+    }
+}
+.parlour-svg1 img{
+    width: 170px;
+    height: auto;
+    margin-top: -550px;
+}
+.parlour-banar1{
+    margin-left: 230px;
+    margin-top: -450px;
+}
+.parlour-banar1 .s{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fe817d;
+}
+.parlour-banar1 h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media screen and (max-width: 1300px) {
+    .parlour-header{
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    .parlour-banar1{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .img-svg{
+        display: none;
+    }
+    
+}
+.parlour-banar1 button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color: #fe817d;
+}
+
+.parlour-banar1 i{
+    background-color: white;
+    color: #fe817d;
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+
+.parlour-play {
+    display: flex;
+    align-items: center; /* Button & link ek line-e thakbe */
+    gap: 15px; /* Button & link er majhe gap */
+}
+
+.parlour-play a {
+    display: inline-flex; /* Inline-flex use korle icon & text ek sathe thakbe */
+    align-items: center; /* X-axis align thik rakhbe */
+    text-decoration: none; /* Underline remove */
+    color: inherit;
+    gap: 5px; /* Icon & text er modhye gap */
+    font-size: 16px; /* Ensure consistent text size */
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .parlour-play {
+        flex-direction: column; /* Medium screen e button & link column e thakbe */
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .parlour-play {
+        display: flex;
+        flex-direction: column; /* Column-wise layout */
+        align-items: center; /* Center alignment */
+        justify-content: center; /* Center vertically */
+        text-align: center;
+        gap: 10px; /* Space between items */
+    }
+    
+}
+.btn-r:hover{
+    background-color: #ff5a5a;
+}
+
+/* header */
+
+
+
+/* main */
+main{
+    margin-top: 170px;
+}
+
+/* section 1 */
+.comment-head{
+    color: grey;
+    font-size: 2rem;
+}
+.parlour-comment button{
+    background-color: #fe817d;
+    color: white;
+    height: 60px;
+    width: 140px;
+    border: none;
+    border-radius: 50px;
+}
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 129, 125, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .overlay {
+    opacity: 3.5; 
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.button:hover{
+    background-color: #ff5a5a;
+    color: white;
+}
+/* section 1 */
+
+
+/* section 2 */
+.section-2{
+    margin-top: 100px;
+}
+.card .btn{
+    background-color: black;
+    color: white;
+}
+.card:hover{
+    box-shadow: 2px 2px 5px gray;
+    transition: 1s;
+}
+.card:hover .btn{
+    background-color: #fe817d;
+    transition: 1s;
+}
+/* section 2 */
+
+
+/* section 3 */
+.section-3{
+    margin-top: 100px;
+}
+.carousel-item {
+    padding: 5% 15%;
+    text-align: center;
+    
+    color: black;
+}
+.carousel-slide{
+background-color: #fffaf7;
+}
+.feedback-img {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+}
+
+.carousel-indicators {
+    margin-bottom: 5px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #fe817d;
+    border-radius: 50%;
+    width: 50px; 
+    height: 50px;
+    margin-top: 300px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); 
+}
+
+
+.carousel-indicators button {
+    background-color: #fe817d !important;
+}
+
+
+.carousel-indicators .active {
+    background-color: #d96b68 !important;
+}
+/* section 3 */
+
+
+/* section 4 */
+.section-4{
+    margin-top: 100px;
+}
+
+.team-container {
+    display: flex;
+    gap: 20px;
+}
+
+.team-member {
+    position: relative;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-member:hover img {
+    transform: scale(1.1);
+}
+
+.overlay1 {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.team-member:hover .overlay1 {
+    opacity: 1;
+}
+
+.overlay1 h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.overlay1 p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffd700;
+}
+/* section 4 */
+
+
+/* section 5 */
+.appointment-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.form-container {
+    background-color: #fff4f1;
+    padding: 30px;
+    border-radius: 10px;
+}
+.btn-appointment {
+    background-color: #ff847c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+.btn-appointment:hover {
+    background-color: #ff5a5a;
+    color: white;
+}
+/* section 5 */
+
+
+/* section 6 */
+.section-6{
+    margin-top: 100px;
+}
+.contact-section {
+    padding: 50px 0;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contact-info i {
+    font-size: 24px;
+    background: #ff7f7f;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    margin-right: 15px;
+}
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.submit-btn {
+    background-color: #ff7f7f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #ff5a5a;
+}
+/* section 6 */
+/* main */
+
+/* footer */
+.footer-class{
+    background-color: #fffaf7;
+    margin-top: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+
+.footer {
+    margin-top: 20px;
+    color: #999;
+}
+.footer a {
+    color: #ff6b81;
+    text-decoration: none;
+}
+.nav-menu a:hover{
+    color: #ff5a5a;
+    transition: 1s;
+}
+.icon{
+    color: black;
+    font-size: 20px;
+}
+.icon:hover{
+    color: #ff6b81;
+    transition: 1s;
+}
+/* footer */
+
+
+
